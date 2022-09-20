@@ -22,6 +22,7 @@ Executing the script at this point will filter and count the words in each chat 
 5. Run the script by double-clicking `CountWordsInTF2Chat.py`. This should work if you've installed Python correctly.
 
 Alternatively, run [the file via command prompt](https://www.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File) and add one of the following arguments:
+
 `-h` or `-help` : Shows all available arguments
 `-filter <filename>` or `-f <filename>`: Filter specified console file for chat messages and create a new file containing them. Does not change the original file.
 
