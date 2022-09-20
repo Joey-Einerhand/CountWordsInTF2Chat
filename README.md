@@ -2,7 +2,7 @@
 Counts the words which have been said in your Team Fortress 2 chat history.
 
 # How does it work?
-Preface: If you wish to simply test the program without setting up Team Fortress 2, I've attached a demo file to the release so you can test out the script without installing TF2 yourself.
+Preface: If you wish to simply test the program without setting up Team Fortress 2, I've attached a demo file to the release so you can test out the script without installing TF2 yourself. I've tried to anonymise this file as much as possible. I've also tried to censor slurs. None the less, this file **will** contain profanity.
 
 This python script filters the console output of the videogame Team Fortress 2 and counts which words have been said in your chat history.
 The Team Fortress 2 chat is received through the in-game console. This console can save itself to a file, but doesn't do this by default.
