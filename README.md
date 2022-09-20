@@ -27,3 +27,9 @@ Alternatively, run [the file via command prompt](https://www.wikihow.com/Use-Win
 `-filter <filename>` or `-f <filename>`: Filter specified console file for chat messages and create a new file containing them. Does not change the original file.
 
 `-count <filename>` or `-c <filename>`: Count the words in the specified file. File should be a filtered version of tf2\'s output console file.
+
+
+# Limitations:
+Due to the way the regex is set up, some edge-cases might not be included into the word-counting end result.
+
+The two most obvious examples are: Chat messages who's sender name start with `error: `, and smileys. Both will not be included in the result.
